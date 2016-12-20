@@ -1,0 +1,12 @@
+Flask-xAdmin includes some bundled software to ease installation.
+
+Flask-Admin
+=======
+
+Distributed under `Copyright (c) 2014, Serge S. Koval and contributors <https://github.com/flask-admin/flask-admin/blob/master/LICENSE>`_.
+
+Bootstrap
+=================
+
+v3.1.0 and subsequent versions distributed under `MIT <http://opensource.org/licenses/MIT>`_.
+Versions prior to v3.1.0 distributed under `APLv2 <http://www.apache.org/licenses/LICENSE-2.0>`_.
