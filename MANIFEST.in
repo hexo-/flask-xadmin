@@ -1,0 +1,7 @@
+include LICENSE
+include README.rst
+recursive-include xadmin/static *
+recursive-include xadmin/templates *
+recursive-include xadmin/translations *
+recursive-include xadmin/tests *
+recursive-exclude xadmin *.pyc
