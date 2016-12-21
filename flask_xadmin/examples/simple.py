@@ -136,6 +136,12 @@ def before_first_request():
     user_datastore.add_role_to_user('admin@example.com', current_app.config['XADMIN_ROLE'])
     user_datastore.add_role_to_user('admin@example.com', current_app.config['XADMIN_EDIT_ROLE'])
 
+    note = Note(id='note4admin', user=user_datastore.get_user('admin@example.com'), note='Admin\'s note')
+    db.session.add(note)
+
+    note = Note(id='note4someone', user=user_datastore.get_user('someone@example.com'), note='Someone note')
+    db.session.add(note)
+
     db.session.commit()
 
 

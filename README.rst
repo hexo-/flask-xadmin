@@ -19,8 +19,20 @@ Flask-xAdmin is a new project.
 
 Examples
 --------
-Several usage examples are included in the */examples* folder. Please feel free to add your own examples, or improve
+Examples are included in the */examples* folder. Please feel free to add your own examples, or improve
 on some of the existing ones, and then submit them via GitHub as a *pull-request*.
+
+*simple.py*
+1. otart simple.py
+2. open http://127.0.0.1:8001/xadmin/note/
+3. enter email: admin@example.com, password: password
+4. follow at User link in table
+4. try edit (click at user icon to enter edit mode)
+5. logout
+
+User vadmin@example.com/password does not have edit mode role.
+You can try to login as vadmin@example.com to see difference.
+
 
 Documentation (in progress)
 ---------------------------
