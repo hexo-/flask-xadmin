@@ -1,7 +1,7 @@
 Flask-xAdmin
 ============
 
-Flask-xAdmin is an *extended* Flask-Admin extension (TODO) for admin apps, standing on the shoulders of giants: Flask, SQLAlchemy, Flask-Security and Flask-Admin. 
+Flask-xAdmin is an *extended* Flask-Admin extension for admin apps, standing on the shoulders of giants: Flask, SQLAlchemy, Flask-Security and Flask-Admin. 
 
 Introduction
 ------------
