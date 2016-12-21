@@ -57,11 +57,11 @@ To install Flask-xAdmin, simply::
 
 Or alternatively, you can download the repository and install manually by doing::
 
-    git clone git@github.com:flask-xadmin/flask-xadmin.git
+    git clone git@github.com:hexo-/flask-xadmin.git
     cd flask-xadmin
     python setup.py install
 
-Tests (in progress)
+Tests (TODO)
 -------------------
 Test are run with *nose*. If you are not familiar with this package you can get some more info from `their website <https://nose.readthedocs.io/>`_.
 
