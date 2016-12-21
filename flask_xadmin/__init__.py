@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+__version__ = '0.1.0'
+__author__ = 'Sedad Delalic'
+
 from flask import Blueprint, redirect
 from flask_security import Security, SQLAlchemyUserDatastore
 from flask_admin import Admin
