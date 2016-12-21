@@ -22,7 +22,7 @@ def desc():
 
 
 # grep flask_admin/__init__.py since python 3.x cannot import it before using 2to3
-file_text = read(fpath('flask_admin/__init__.py'))
+file_text = read(fpath('flask_xadmin/__init__.py'))
 
 
 def grep(attrname):
@@ -34,7 +34,7 @@ def grep(attrname):
 setup(
     name='Flask-xAdmin',
     version=grep('__version__'),
-    url='https://github.com/flask-admin/flask-admin/',
+    url='https://github.com/hexo-/flask-xadmin',
     license='MIT',
     author=grep('__author__'),
     author_email=grep('__email__'),

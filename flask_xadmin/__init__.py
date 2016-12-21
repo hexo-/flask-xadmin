@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 __version__ = '0.1.0'
 __author__ = 'Sedad Delalic'
+__email__ = 'https://github.com/hexo-'
 
 from flask import Blueprint, redirect
 from flask_security import Security, SQLAlchemyUserDatastore
