@@ -25,11 +25,11 @@ on some of the existing ones, and then submit them via GitHub as a *pull-request
 *simple.py*
 
 1. start simple.py
-2. open http://127.0.0.1:8001/xadmin/note/
-3. enter email: admin@example.com, password: password
-4. follow at User link in table
-4. try edit (click at user icon to enter edit mode)
-5. logout
+2. open in browser http://127.0.0.1:8001/xadmin/note/
+3. username/password: admin@example.com/password
+4. try to follow User relationship in Note table
+5. click at user icon to enter edit mode 
+6. play ...
 
 User vadmin@example.com/password does not have edit mode role.
 You can try to login as vadmin@example.com to see difference.
