@@ -40,7 +40,6 @@ app.config['XADMIN_ROLE'] = 'flask-xadmin'
 app.config['XADMIN_EDIT_ROLE'] = 'flask-xadmin-edit'
 
 db = SQLAlchemy(app)
-app.register_blueprint(xadm_app)
 
 # Create a table to support a many-to-many relationship between Users and Roles
 roles_users = db.Table(
@@ -140,6 +139,10 @@ def before_first_request():
     db.session.commit()
 
 
+# Here comes example of Flask-xAdmin ModelViews
+
+app.register_blueprint(xadm_app)
+
 class myModelView(xModelView):
     column_exclude_list = 'password'
     # Customize your generic model -view
@@ -153,7 +156,7 @@ class myFileAdmin(xFileAdmin):
     pass
 
 
-# IMPORTANT: Authorized users should have granted xadmin_superadmin role
+# IMPORTANT: Authorized users should have granted flask-xadmin role (for view only) flask-xadmin-edit (for edit feature)
 
 # Prepare view list
 views = [
