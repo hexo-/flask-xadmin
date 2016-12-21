@@ -1,12 +1,12 @@
 Flask-xAdmin
 ============
 
-Flask-xAdmin is an ***extended*** Flask-Admin extension for admin apps, standing on the shoulders of giants: Flask, SQLAlchemy, Flask-Security and Flask-Admin. 
+Flask-xAdmin is an *extended* Flask-Admin extension for admin apps, standing on the shoulders of giants: Flask, SQLAlchemy, Flask-Security and Flask-Admin. 
 
 Introduction
 ------------
 
-Flask-xAdmin is a ***extended*** *life batteries-included*, simple-to-use `Flask <http://flask.pocoo.org/>`_ extension that lets you
+Flask-xAdmin is a *extended life batteries-included*, simple-to-use `Flask <http://flask.pocoo.org/>`_ extension that lets you
 add admin interfaces to Flask applications. 
 
 The goal of Flask-xAdmin is to give additional flexibility to Flask-Admin apps and to make admin developer job easier.  
