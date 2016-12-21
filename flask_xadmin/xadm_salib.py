@@ -164,7 +164,13 @@ def gen_href_formatter(model, relationship_names=None, ahref_fmt="<a href='%s'>%
 
             # Ignore if instance of referenced model view does not exists
             show_attr = getattr(model, name)
-            show_value = show_attr
+
+            # Python 3 compatibility
+            try: unicode()
+            except NameError:
+                unicode = str
+
+            show_value = unicode(show_attr)
             try:
                 url = url_for(view_url, id=url_args_str)
                 if show_attr:
