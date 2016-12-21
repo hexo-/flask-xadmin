@@ -166,11 +166,11 @@ def gen_href_formatter(model, relationship_names=None, ahref_fmt="<a href='%s'>%
             show_attr = getattr(model, name)
 
             # Python 3 compatibility
-            try: unicode()
-            except NameError:
-                unicode = str
+            try:
+                show_value = show_attr.__unicode__()
+            except:
+                show_value = show_attr.__str__()
 
-            show_value = unicode(show_attr)
             try:
                 url = url_for(view_url, id=url_args_str)
                 if show_attr:
