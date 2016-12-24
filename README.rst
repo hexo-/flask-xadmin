@@ -1,7 +1,7 @@
 Flask-xAdmin
 ============
 
-Flask-xAdmin is an *extended* extension :) of Flask-Admin standing on the shoulders: Flask, SQLAlchemy, Flask-Security and Flask-Admin. 
+Flask-xAdmin is an *extended* extension :) of Flask-Admin standing on the shoulders of Flask, SQLAlchemy, Flask-Security and Flask-Admin. 
 
 Introduction
 ------------
