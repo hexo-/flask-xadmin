@@ -1,7 +1,7 @@
 Flask-xAdmin
 ============
 
-Flask-xAdmin is a *extended-life batteries-included*, simple-to-use `Flask <http://flask.pocoo.org/>`_ extension that lets you
+Flask-xAdmin is a *extended-life batteries included*, simple-to-use `Flask <http://flask.pocoo.org/>`_ extension that lets you
 add flexible admin interface to Flask applications. 
 Flask-xAdmin is standing on the shoulders of Flask, SQLAlchemy, Flask-Security and Flask-Admin. 
 
@@ -11,7 +11,7 @@ Introduction
 Flask-xAdmin is a *extended-life batteries-included*, simple-to-use `Flask <http://flask.pocoo.org/>`_ extension that lets you
 add admin interfaces to Flask applications. 
 
-The goal of Flask-xAdmin is to give additional flexibility to Flask-Admin apps and to make admin developer job easier.  
+The goal of Flask-xAdmin is to give additional flexibility to Flask-Admin apps and make admin-app developer job easier.
 
 *Extended life* means that apps built with Flask-xAdmin are smaller and more resistant to database model changes due to development process, thus providing admin app extended lifetime & flexibility.
 
@@ -37,19 +37,9 @@ User vadmin@example.com/password does not have edit mode role.
 You can try to login as vadmin@example.com to see difference.
 
 
-Documentation (in progress)
+Documentation (todo)
 ---------------------------
 Flask-xAdmin documentation will be published at `https://flask-xadmin.readthedocs.io/en/latest/ <https://flask-xadmin.readthedocs.io/en/latest/>`_.
-
-The docs are auto-generated from the *.rst* files in the */doc* folder. So if you come across any errors, or
-if you think of anything else that should be included, then please make the changes and submit them as a *pull-request*.
-
-To build the docs in your local environment, from the project directory::
-
-    pip install -r requirements-dev.txt
-    sudo make html
-
-And if you want to preview any *.rst* snippets that you may want to contribute, go to `http://rst.ninjs.org/ <http://rst.ninjs.org/>`_.
 
 Installation
 ------------
